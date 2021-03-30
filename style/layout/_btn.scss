@@ -1,0 +1,28 @@
+.btn-holder {
+    margin-top: 2rem;
+
+    .yes-or-no {
+        background: #F098B7;
+        border: none;
+        font-family: 'Oswald', sans-serif;
+        padding: 2rem 3.5rem;
+        font-size: 2rem;
+        border-radius: .5rem;
+        color: white;
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+    
+    .reset-btn {
+        border: none;
+        background: none;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+
+    :focus {
+        outline-width: 0;
+    }
+}

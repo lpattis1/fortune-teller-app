@@ -1,0 +1,51 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 3.5rem;
+
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .fortune {
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+
+        &__input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid rgb(223, 223, 223);
+            width: 55rem;
+            text-align: center;
+            font-size: 1.8rem;
+            color: #F098B7;
+
+        }
+
+        :focus {
+            outline-width: 0;
+        }
+
+
+    }
+
+
+}

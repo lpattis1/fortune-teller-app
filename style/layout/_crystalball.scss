@@ -1,0 +1,90 @@
+.crystal {
+
+    margin-bottom: 3rem;
+    position: relative;
+
+    &__star1 {
+        width: 4rem;
+        height: 4rem;
+        background: radial-gradient(yellow, 20%, #F9C5CE, yellow);
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        position: absolute;
+        top: 2rem;
+        left: 1.5rem;
+        right: 0;
+        -webkit-animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	    animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+        -webkit-animation: text-blur-out 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	    animation: text-blur-out 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+        transition: ease-in-out;
+        
+    }
+
+    &__star2 {
+        width: 2rem;
+        height: 2rem;
+        background: radial-gradient(yellow, 20%, #F9C5CE, yellow);
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        right: 0;
+        -webkit-animation: scale-up-center 3.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	    animation: scale-up-center 3.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+        -webkit-animation: text-blur-out 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	    animation: text-blur-out 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+        transition: ease-in-out;
+    }
+
+    &__star3 {
+        width: 2rem;
+        height: 2rem;
+        background: radial-gradient(yellow, 20%, #F9C5CE, yellow);
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        position: absolute;
+        top: 5rem;
+        left: 0rem;
+        right: 0;
+        -webkit-animation: scale-up-center 3.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+	    animation: scale-up-center 3.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+        -webkit-animation: text-blur-out 3.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+	    animation: text-blur-out 3.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+        transition: ease-in-out;
+    }
+
+    &__ball {
+        width: 21rem;
+        height: 20rem;
+        border-radius: 50%;
+        margin: auto;
+        background: radial-gradient(rgba(255,255,255,0.2), 70%, rgba(141, 89, 225, 0.2));
+        
+    }
+
+    &__base1 {
+        width: 16rem;
+        height: 3rem;
+        border-bottom: 3px solid #F098B7;
+        margin: auto;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        background: #F0BACD;
+        background: -webkit-radial-gradient(center, #F0BACD, #F098B7);
+        background: -moz-radial-gradient(center, #F0BACD, #F098B7);
+        background: radial-gradient(ellipse at center, #F0BACD, #F098B7);
+    }
+
+    &__base2 {
+        width: 24rem;
+        height: 3rem;
+        
+        margin: auto;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        background: #F0BACD;
+        background: -webkit-radial-gradient(center, #F0BACD, #F098B7);
+        background: -moz-radial-gradient(center, #F0BACD, #F098B7);
+        background: radial-gradient(ellipse at center, #F0BACD, #F098B7);
+    }
+
+}

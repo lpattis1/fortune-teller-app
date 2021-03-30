@@ -1,0 +1,174 @@
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes text-blur-out {
+  0% {
+    filter: blur(0.01);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 3.5rem;
+}
+.title h1 {
+  font-size: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .fortune h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.container .fortune__input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #dfdfdf;
+  width: 55rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #F098B7;
+}
+.container .fortune :focus {
+  outline-width: 0;
+}
+
+.btn-holder {
+  margin-top: 2rem;
+}
+.btn-holder .yes-or-no {
+  background: #F098B7;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  padding: 2rem 3.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.btn-holder .reset-btn {
+  border: none;
+  background: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn-holder :focus {
+  outline-width: 0;
+}
+
+.crystal {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.crystal__star1 {
+  width: 4rem;
+  height: 4rem;
+  background: radial-gradient(yellow, 20%, #F9C5CE, yellow);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  right: 0;
+  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+  animation: text-blur-out 3s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+  transition: ease-in-out;
+}
+.crystal__star2 {
+  width: 2rem;
+  height: 2rem;
+  background: radial-gradient(yellow, 20%, #F9C5CE, yellow);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 0;
+  animation: scale-up-center 3.5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+  animation: text-blur-out 3.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+  transition: ease-in-out;
+}
+.crystal__star3 {
+  width: 2rem;
+  height: 2rem;
+  background: radial-gradient(yellow, 20%, #F9C5CE, yellow);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  top: 5rem;
+  left: 0rem;
+  right: 0;
+  animation: scale-up-center 3.7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+  animation: text-blur-out 3.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite both;
+  transition: ease-in-out;
+}
+.crystal__ball {
+  width: 21rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin: auto;
+  background: radial-gradient(rgba(255, 255, 255, 0.2), 70%, rgba(141, 89, 225, 0.2));
+}
+.crystal__base1 {
+  width: 16rem;
+  height: 3rem;
+  border-bottom: 3px solid #F098B7;
+  margin: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background: #F0BACD;
+  background: radial-gradient(ellipse at center, #F0BACD, #F098B7);
+}
+.crystal__base2 {
+  width: 24rem;
+  height: 3rem;
+  margin: auto;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background: #F0BACD;
+  background: radial-gradient(ellipse at center, #F0BACD, #F098B7);
+}/*# sourceMappingURL=main.css.map */
